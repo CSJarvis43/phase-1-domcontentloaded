@@ -1,1 +1,8 @@
-// Your code goes here
+document.addEventListener('DOMContentLoaded', () =>
+    replaceText()
+)
+
+function replaceText() {
+    document.getElementById('text')
+        .innerHTML = 'This is really cool!'
+}
